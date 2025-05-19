@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 const port = 9866;
-const url = "mongodb+srv://RemainderApp:RemainderApp@remainderapp.lzvfcil.mongodb.net/?retryWrites=true&w=majority&appName=RemainderApp";
+const url = "mongodb+srv://RemainderApp:RemainderApp@remainderapp.ua3au43.mongodb.net/?retryWrites=true&w=majority&appName=RemainderApp";
 
 app.listen(port,()=>{
     console.log(`Server Running on Port ${port}`)
@@ -29,8 +29,8 @@ connectToMDB();
 const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "santhan.machavarapu@gmail.com", // Your email
-      pass: "vgpy ddru fxlz tson", // Use an App Password for Gmail
+      user: "remainderapp8@gmail.com", // Your email
+      pass: "frdf uufq svfv ecnx", // Use an App Password for Gmail
     },
   });
 
